@@ -1,0 +1,157 @@
+@media (min-width: 992px) and (max-width:1199.98px) {
+
+
+    h1 {
+        font-size: 45px;
+        letter-spacing: 10pt;
+    }
+
+    .banner .carousel-caption img {
+        width: 13%;
+        margin-top: 20px;
+    }
+
+    .banner .carousel-caption button {
+        padding: 10px 30px 9px;
+        font-size: 12px;
+        letter-spacing: 1px;
+        margin-top: 26px;
+    }
+
+    .about-feat p {
+        padding: 0 25px;
+    }
+}
+
+/* ********** ********** ********** */
+@media (min-width: 768px) and (max-width:991.98px) {
+
+
+    .myMenu ul li a {
+        font-size: 11px;
+        padding: 21px 12px !important;
+    }
+
+    #banner .carousel-caption h4 {
+        font-size: 17px;
+    }
+
+    h1 {
+        font-size: 35px;
+        letter-spacing: 7pt;
+    }
+
+    #banner .carousel-caption p {
+        font-size: 11px;
+    }
+
+    #banner .carousel-caption {
+        top: 120px;
+    }
+
+    .banner .carousel-caption img {
+        margin-top: 16px;
+        width: 12%;
+    }
+
+    .banner .carousel-caption button {
+        padding: 8px 21px 8px;
+        font-size: 10px;
+        letter-spacing: 1px;
+        margin-top: 21px;
+    }
+
+    .about-feat p {
+        padding: 0 25px;
+    }
+
+    .overay h3 {
+        font-size: 12px;
+
+    }
+}
+
+
+/* ********** ********** ********** */
+@media (max-width:991.98px) {
+
+    #about,
+    #work {
+        padding: 60px 0;
+    }
+
+    .about-heading p {
+        line-height: 31px;
+        font-size: 14px;
+    }
+
+    .about-heading p span {
+        font-size: 18px;
+    }
+
+    .work-heading p {
+        line-height: 28px;
+        font-size: 14px;
+    }
+
+}
+
+
+/* ********** ********** ********** */
+@media (max-width:767.98px) {
+
+    .myNav {
+        padding: 7px 0 7px 5px;
+    }
+
+    .myMenu ul li a {
+        padding: 17px 12px 15px 0px !important;
+        text-align: right;
+    }
+
+
+    #banner .carousel-control-next-icon,
+    #banner .carousel-control-prev-icon {
+        width: 16px;
+    }
+
+    #banner .carousel-indicators [data-bs-target] {
+        width: 16px;
+        height: 1px;
+    }
+
+    h2 {
+        font-size: 38px;
+    }
+
+    .about-feat p {
+        padding: 0 15px;
+    }
+
+    #service {
+        padding: 50px 0;
+    }
+
+    .service-heading p {
+        line-height: 30px;
+        font-size: 14px;
+    }
+
+    .service-feat {
+        margin-bottom: 35px;
+    }
+
+    .service-feat p {
+        line-height: 22px;
+        margin-top: 10px;
+    }
+
+    .contact-form .form-control {
+        font-size: 14px;
+    }
+
+    .contact-form label {
+        font-size: 14px;
+    }
+
+}

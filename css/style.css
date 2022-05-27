@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    line-height: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 68px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 15pt;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 46px;
+    color: #02918c;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+}
+
+p {
+    line-height: 41px;
+    font-weight: 400;
+    color: #7e8287;
+    font-size: 16px;
+}
+
+.about-heading p span {
+    font-size: 23px;
+    font-weight: 800;
+}
+
+
+/* NAVIGATION CSS START */
+.myNav {
+    background-color: #02918c;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.myMenu ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 12px;
+    padding: 21px 25px !important;
+}
+
+.myMenu ul li a.nav-link:hover {
+    color: #cfc91d;
+}
+
+/* NAVIGATION CSS END */
+
+/* BANNER CSS START */
+#banner {
+    position: relative;
+}
+
+#banner:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+#banner .carousel-item {
+    height: auto;
+}
+
+#banner .carousel-caption {
+    z-index: 1;
+    top: 185px;
+}
+
+#banner .carousel-caption h4 {
+    margin-bottom: 3px;
+    color: #fff;
+}
+
+#banner .carousel-caption p {
+    color: #fff;
+    line-height: 24px;
+}
+
+.banner .carousel-caption img {
+    margin-top: 50px;
+}
+
+.banner .carousel-caption button {
+    padding: 14px 40px 13px;
+    border-radius: 0;
+    background-color: #cfc91d;
+    font-size: 14px;
+    font-weight: 800;
+    color: #0b1016;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 50px;
+}
+
+/* BANNER CSS END */
+
+/* ABOUT CSS START */
+#about {
+    padding: 100px 0;
+}
+
+.about-feat p {
+    font-size: 11px;
+    line-height: 21pt;
+    margin-top: 20px;
+    padding: 0 70px;
+}
+
+.about-feat-border {
+    border-right: 1px solid rgba(94, 103, 103, 0.5);
+}
+
+.about-feat i,
+.service-part i {
+    font-size: 34px;
+    color: #02918c;
+}
+
+.about-feat-border:last-child {
+    border: none;
+}
+
+/* ABOUT CSS END */
+
+/* SERVICE CSS START */
+#service {
+    background-image: url(../images/MYFOLIO-service-bg.jpg);
+    padding: 75px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.service-part {
+    margin-top: 38px;
+}
+
+.service-part p {
+    line-height: 21pt;
+    font-size: 11px;
+    padding-right: 20px;
+}
+
+.service-feat {
+    margin-bottom: 80px;
+}
+
+
+/* SERVICE CSS END */
+
+/* WORK CSS START */
+#work {
+    padding: 100px 0;
+}
+
+.work-port img {
+    width: 100%;
+}
+
+.work-port {
+    position: relative;
+}
+
+.work-port .overlay {
+    position: absolute;
+    left: 30px;
+    right: 30px;
+    bottom: 20px;
+    top: 20px;
+    background: rgba(2, 145, 140, .7);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    transition: .5s;
+    opacity: 0;
+    padding-top: 20px;
+}
+
+
+.overlay h3,
+.overlay p {
+    color: #fff;
+}
+
+.overlay p {
+    line-height: 21px;
+    font-size: 13px;
+    padding: 0 40px;
+    margin-top: 15px;
+}
+
+.work-port:hover .overlay {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* WORK CSS END */
+
+/* CONTACT CSS START */
+.contact-form {
+    background: black;
+}
+
+.contact-form .form-control:focus {
+    box-shadow: none;
+}
+
+.contact-form .form-control {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #7e8287;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+    border-radius: 0;
+    padding: 18px 0;
+}
+
+.contact-form label {
+    color: #7e8287;
+    margin-top: 30px;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 90px;
+    border-top: 1px solid #7e8287 !important;
+    margin-top: 30px;
+}
+
+.contact-form .btn {
+    margin-top: 20px;
+}
+
+.contact-form button {
+    margin: 10px 0 0;
+    padding: 8px 50px;
+    background-color: #cfc91d;
+    color: black;
+    font-weight: 800;
+    font-size: 14px;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+
+/* CONTACT CSS END */
+
+/* FOOTER CSS START */
+#footer {
+    background: #000;
+}
+
+#footer p {
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#footer p a {
+    color: white;
+}
+
+/* FOOTER CSS END */
