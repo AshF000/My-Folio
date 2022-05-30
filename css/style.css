@@ -148,7 +148,7 @@ p {
     font-size: 11px;
     line-height: 21pt;
     margin-top: 20px;
-    padding: 0 70px;
+    padding: 0 20px;
 }
 
 .about-feat-border {
@@ -178,7 +178,7 @@ p {
 /* SERVICE CSS START */
 #service {
     background-image: url(../images/MYFOLIO-service-bg.jpg);
-    padding: 75px 0;
+    padding: 75px 0 0;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -192,7 +192,8 @@ p {
 .service-part p {
     line-height: 21pt;
     font-size: 11px;
-    padding-right: 120px;
+    padding-right: 110px;
+    margin-top: 10px;
 }
 
 .service-feat {
