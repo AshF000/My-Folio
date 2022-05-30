@@ -74,11 +74,11 @@ p {
 }
 
 .myMenu ul li a {
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 800;
-    font-size: 12px;
-    padding: 21px 25px !important;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 12px;
+	padding: 30px 25px !important;
 }
 
 .myMenu ul li a.nav-link:hover {
@@ -141,7 +141,7 @@ p {
 
 /* ABOUT CSS START */
 #about {
-    padding: 100px 0;
+	padding: 85px 0 100px;
 }
 
 .about-feat p {
@@ -165,6 +165,14 @@ p {
     border: none;
 }
 
+.about-slider{
+    margin-top: 70px;
+}
+
+.about-slider .about-feat{
+    padding: 35px 0;
+}
+
 /* ABOUT CSS END */
 
 /* SERVICE CSS START */
@@ -184,7 +192,7 @@ p {
 .service-part p {
     line-height: 21pt;
     font-size: 11px;
-    padding-right: 20px;
+    padding-right: 120px;
 }
 
 .service-feat {
@@ -220,7 +228,7 @@ p {
     color: #fff;
     transition: .5s;
     opacity: 0;
-    padding-top: 20px;
+    padding-top: 60px;
 }
 
 
@@ -232,7 +240,7 @@ p {
 .overlay p {
     line-height: 21px;
     font-size: 13px;
-    padding: 0 40px;
+    padding: 0 55px;
     margin-top: 15px;
 }
 
