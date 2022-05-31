@@ -1,7 +1,7 @@
 $(function ($) {
 
     ///  about slider
-    
+
     $('.about-slider').slick({
         slidesToShow: 4,
         arrows: false,

@@ -21,6 +21,10 @@
     .about-feat p {
         padding: 0 25px;
     }
+
+    .service-feat p {
+        padding-right: 40px;
+    }
 }
 
 /* ********** ********** ********** */
@@ -77,7 +81,7 @@
 
     #about,
     #work {
-        padding: 60px 0;
+        padding: 55px 0;
     }
 
     .about-heading p {
@@ -87,6 +91,14 @@
 
     .about-heading p span {
         font-size: 18px;
+    }
+
+    #service {
+        padding-top: 50px;
+    }
+
+    .service-feat p {
+        padding-right: 0px;
     }
 
     .work-heading p {
@@ -100,12 +112,17 @@
 /* ********** ********** ********** */
 @media (max-width:767.98px) {
 
+    #about,
+    #work {
+        padding: 45px 0;
+    }
+
     .myNav {
         padding: 7px 0 7px 5px;
     }
 
     .myMenu ul li a {
-        padding: 17px 12px 15px 0px !important;
+        padding: 19px 12px 17px 0px !important;
         text-align: right;
     }
 
@@ -115,25 +132,32 @@
         width: 16px;
     }
 
-    #banner .carousel-indicators [data-bs-target] {
-        width: 16px;
-        height: 1px;
-    }
-
     h2 {
-        font-size: 38px;
+        font-size: 32px;
     }
 
     .about-feat p {
         padding: 0 15px;
     }
 
-    #service {
-        padding: 50px 0;
+    .about-slider {
+        margin-top: 25px;
+    }
+
+    .about-feat-border {
+        border-right: none;
+    }
+
+    .about-slider .about-feat {
+        padding: 20px 0;
     }
 
     .service-heading p {
-        line-height: 30px;
+        line-height: 23px;
+        font-size: 13px;
+    }
+
+    .service-heading h3 {
         font-size: 14px;
     }
 
@@ -144,6 +168,12 @@
     .service-feat p {
         line-height: 22px;
         margin-top: 10px;
+        padding-right: 0px;
+    }
+
+    .about-feat i,
+    .service-part i {
+        font-size: 28px;
     }
 
     .contact-form .form-control {
@@ -155,3 +185,5 @@
     }
 
 }
+
+/* End */
